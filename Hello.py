@@ -1,9 +1,8 @@
 import streamlit as st
-from utilities import load_css
-
-st.set_page_config(
-    page_title="Hello",
-)
+# from utilities import load_css
+# st.set_page_config(
+#     page_title="Home",
+# )
 
 
 st.markdown("<h1 style='text-align: center; color: #800020 ;'>PRET A DEPENSER</h1>", unsafe_allow_html=True)
@@ -47,4 +46,4 @@ st.markdown('<br>' * 9, unsafe_allow_html=True)
 
 st.markdown('###### Application développée par [Dalila Derdar](https://www.linkedin.com/in/daliladerdar)')
 
-load_css()
+# load_css()
