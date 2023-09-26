@@ -88,5 +88,5 @@ websocket-client==1.6.3
 Werkzeug==2.3.7
 zipp==3.17.0
 imbalanced-learn == 0.11.0
-streamlit==1.5.0
+streamlit==1.10.0
 gunicorn
