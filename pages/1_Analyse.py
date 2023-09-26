@@ -1,6 +1,8 @@
 import streamlit as st
+from utilities import load_css
+st.set_page_config(page_title="Analyse")
 st.write("Analyse")
-
+load_css()
 # import mlflow
 # from mlflow.tracking import MlflowClient
 # import mlflow.sklearn
